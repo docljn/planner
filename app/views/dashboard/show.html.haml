@@ -51,7 +51,7 @@
         = mail_to "hello@codebar.io", t("homepage.participate.workshop_button"), subject: t('homepage.participate.workshop_email_subject'), class: 'button'
 
 %section.stripe#chapter
-  .events#container
+  .events.container
     .row
       .large-8.columns
         - if @upcoming_workshops.empty?
